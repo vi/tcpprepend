@@ -35,6 +35,11 @@ B> 555666
 C: 555666
 ```
 
+Psedo-HTTP server mode:
+
+    $ tcpprepend 127.0.0.1:8080 DQoNCg== 127.0.0.1:1235 SFRUUC8xLjAgMjAwIE9LDQoNCg==
+    $ curl http://127.0.0.1:8080/
+
 # Usage line
 
 ```
